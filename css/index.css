@@ -37,7 +37,26 @@ body,html{
     justify-content: center;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    position: relative;
     float: right;
+    flex-direction: column;
+}
+
+.HOI{
+    font-size: 50px;
+}
+
+.Fotos{
+    margin: 40px;
+    margin-left: 20px;
+    float: left;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+}
+
+.Fotos2{
+    float: right;
+    display: flex;
+    justify-content: center;
     flex-direction: column;
 }
