@@ -2,34 +2,83 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rishendly Michel</title>
-    <link rel= "stylesheet" href = "css/index.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Portfolio website</title>
 </head>
 <body>
-    <section id="homepagina">
-        <h1>RISHENDLY</h1>
-        <div>
-            <a href="#introtekst">
-                <img src="img/Triangle.png" alt="Driehoek foto">
-            </a>
+    <header>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li><a href="#">Over mij</a></li>
+                <li><a href="#">Vaardigheden</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+        <div class="jumbotron text-center">
+            <h1>Rishendly Michel</h1>
         </div>
-    </section>
-    <section id="introtekst">
-        <div class="introtekst">
-            <h2><span class="HOI">HOI!</span> Ik ben Rishendly</h2>
-            <h3>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. Vivamus ante dui, ornare<br>quis vestibulum quis, varius vel sapien.<br>Nullam vel massa risus.Proin non<br>dictum tortor, sed sollicitudin mauris.<br>Lorem ipsum dolor sit amet, consectetur<br>adipiscing elit. In eu consequat dui, ac.</h3>      
-        </div>
-        <div class="Fotos">
-            <img src="img/Foto.png" alt="Driehoek foto">
-            <div class = Fotos2>
-                <div>
-                    <img src="img/facebook.png">
-                    <img src="img/instagram.png">
-                    <img src="img/linkedin.png">
+    </header>
+    
+    <section id ="kolommen">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="kolom">
+                        <img id="foto" src="img/person.png">
+                        <h3>Over mij</h3>
+                        <p>Ik ben Rishendly, 16 jaar en momenteel bezig met een opleiding aan het ROC Mondriaan</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="kolom">
+                        <img id="foto" src="img/program.png">
+                        <h3>Vaardigheden</h3>
+                        <p>CSS/Bootstrap</p>
+                        <p>HTML</p>
+                        <p>CSharp</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="kolom">
+                        <img id="foto" src="img/contact.jpg">
+                        <h3>Contact</h3>
+                        <p>302155362@student.rocmondriaan.nl</p>
+                    </div> 
                 </div>
             </div>
         </div>
     </section>
+
+    <section id ="kolommen">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-sm-4">
+                    <div class="kolom">
+                        <img id="foto" src="img/contact.jpg">
+                        <h3>Projecten</h3>
+                        <p>Ga naar mijn <a href=""></a>projectenpagina!</a></p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="kolom">
+                        <img id="foto" src="img/roclogo.jpg">
+                        <h3>Studie</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        
+        
+    <div class="jumbotron jumbocenter"></div>  
+
 </body>
 </html>
