@@ -30,3 +30,21 @@ h3{
     max-width: auto;
     height: auto
 }
+
+#profielfoto{
+    width: 70%;
+    max-width: auto;
+    height: auto;
+}
+
+#kolommen{
+    background-color: rgb(247, 247, 247);
+}
+
+#intro{
+margin: 6em;
+}
+
+#contact{
+    margin: 6em;
+}
